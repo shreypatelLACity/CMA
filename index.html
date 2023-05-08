@@ -1,13 +1,202 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--   HERO  -->
+    <div class="container py-5">
+      <div class="col-lg-6 col-md-9">
+        <h1>
+          <span class="Discover">Discover</span> the underwater world of
+          Southern California
+        </h1>
+        <h5>
+          Cabrillo Marine Aquarium is a trusted resource that inspires
+          exploration, respect and conservation of Southern California marine
+          life.
+        </h5>
+      </div>
+      <div class="d-grid gap-2 d-md-block mt-4">
+        <button class="btn btn-primary" type="button">Get started</button>
+        <button class="btn btn-outline-primary" type="button">More Info</button>
+      </div>
+      <!--   Featured event -->
+      <div class="card mb-3 mt-5 bg-light" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4 bg-info-subtle">
+            <img src=" " class="img-fluid rounded-start" alt="" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Featured Event: <span class="Shark">Shark Week</span>
+              </h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <a href="#" class="card-link">More Info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   TILES -->
+    <div class="container-fluid m-0 p-0 my-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <!--           Item -->
+            <div
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-warning-subtle text-dark text-center d-flex align-items-center justify-content-center"
+            >
+              <div class="card-body">
+                <h5 class="card-title mb-3">Visit Aquarium</h5>
+                <a href="#" class="btn btn-outline-dark">Plan your visit</a>
+              </div>
+            </div>
+            <!--           Item -->
+            <div
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-primary-subtle text-dark text-center d-flex align-items-center justify-content-center"
+            >
+              <div class="card-body">
+                <h5 class="card-title mb-3">Upcoming</h5>
+                <a href="#" class="btn btn-outline-dark">Programs</a>
+              </div>
+            </div>
+            <!--           Item -->
+            <div
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-danger-subtle text-dark text-center d-flex align-items-center justify-content-center"
+            >
+              <div class="card-body">
+                <h5 class="card-title mb-3">Marine Life</h5>
+                <a href="#" class="btn btn-outline-dark">Species</a>
+              </div>
+            </div>
+            <!--           Item -->
+            <div
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-success-subtle text-dark text-center d-flex align-items-center justify-content-center"
+            >
+              <div class="card-body">
+                <h5 class="card-title mb-3">Get Involved</h5>
+                <a href="#" class="btn btn-outline-dark">Volunteer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   FEATURED -->
+    <div class="container my-5">
+      <div>
+        <span class="badge bg-info mb-2">EVENTS</span>
+        <h1>Featured</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4 bg-info-subtle">
+                <img src="..." class="img-fluid rounded-start" alt="" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Adopt a Seabass</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-info">Tuesday, March 27, 2023</small>
+                  </p>
+                  <button type="button" class="btn btn-outline-dark">
+                    More Info
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4 bg-info-subtle">
+                <img src="..." class="img-fluid rounded-start" alt="" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Adopt a Seabass</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-info">Saturday, February 25, 2023</small>
+                  </p>
+                  <button type="button" class="btn btn-outline-dark">
+                    More Info
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   PROGRAM -->
+    <section class="bg-info-subtle">
+      <div class="container my-5 bg-info-subtle">
+        <div class="row p-2">
+          <img
+            src="https://images.unsplash.com/photo-1679537240106-40cee79acfe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+            class="img-fluid col-md-6"
+            alt=""
+          />
+          <div class="col-md-6 mt-2">
+            <span class="badge bg-info mb-2">PROGRAM</span>
+            <h1>Sea Search</h1>
+            <p>
+              As we look toward our 100th anniversary in 2030, Shedd Aquarium is
+              embarking on an audacious, energizing and urgent undertaking —a
+              transformational Centennial Commitment that accelerates access and
+              connection to nature for all and amplifies ways to care, conserve
+              and act to ensure an equitable, sustainable, and thriving future
+              for people and aquatic life.
+            </p>
+            <button type="button" class="btn btn-outline-dark">
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
