@@ -1,3 +1,40 @@
 * {
     font-family: "Poppins", sans-serif;
   }
+
+
+
+.bg-CMA{
+  background-color: #181823;
+}
+
+.tile{
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.tileOne{
+  background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
+}
+
+.tileTwo{
+  background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
+}
+
+.tileThree{
+  background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
+}
+
+.tileFour{
+  background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
+}
+
+.support{
+  background-image: url(/assests/img/Support.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
