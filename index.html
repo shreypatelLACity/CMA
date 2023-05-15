@@ -55,11 +55,15 @@
         <!-- Featured event -->
         <div class="card mb-3 mt-5 bg-light" style="max-width: 540px">
           <div class="row g-0">
-            <div class="col-md-4 bg-info-subtle">
-              <img src="https://static.vecteezy.com/system/resources/previews/001/209/957/original/square-png.png" class="img-fluid rounded-start" alt="" />
+            <div class="col-md-4">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/001/209/957/original/square-png.png"
+                class="img-fluid rounded-start"
+                alt=""
+              />
             </div>
             <div class="col-md-8">
-              <div class="card-body">
+              <div class="card-body text-dark">
                 <h5 class="card-title">
                   Featured Event: <span class="Shark">Shark Week</span>
                 </h5>
@@ -83,7 +87,10 @@
           <div class="row">
             <!-- Item -->
             <div
-              class="col-sm-6 col-md-3 col-lg-3 p-4 p-4 bg-warning-subtle text-white text-center d-flex align-items-center justify-content-center tile tileOne"
+              class="col-sm-6 col-md-3 col-lg-3 p-4 p-4 bg-warning-subtle text-white text-center d-flex align-items-center justify-content-center tile"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1512391806023-e43a4e65899f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+              "
             >
               <div class="card-body">
                 <h5 class="card-title mb-3">Visit Aquarium</h5>
@@ -92,7 +99,10 @@
             </div>
             <!-- Item -->
             <div
-              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-primary-subtle text-white text-center d-flex align-items-center justify-content-center tile tileTwo"
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-primary-subtle text-white text-center d-flex align-items-center justify-content-center tile"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1512391806023-e43a4e65899f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+              "
             >
               <div class="card-body">
                 <h5 class="card-title mb-3">Upcoming</h5>
@@ -101,7 +111,10 @@
             </div>
             <!-- Item -->
             <div
-              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-danger-subtle text-white text-center d-flex align-items-center justify-content-center tile tileThree"
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-danger-subtle text-white text-center d-flex align-items-center justify-content-center tile"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1512391806023-e43a4e65899f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+              "
             >
               <div class="card-body">
                 <h5 class="card-title mb-3">Marine Life</h5>
@@ -110,7 +123,10 @@
             </div>
             <!-- Item -->
             <div
-              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-success-subtle text-white text-center d-flex align-items-center justify-content-center tile tileFour"
+              class="col-sm-6 col-md-3 col-lg-3 p-4 bg-success-subtle text-white text-center d-flex align-items-center justify-content-center tile"
+              style="
+                background-image: url('https://images.unsplash.com/photo-1512391806023-e43a4e65899f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+              "
             >
               <div class="card-body">
                 <h5 class="card-title mb-3">Get Involved</h5>
@@ -123,99 +139,111 @@
     </div>
 
     <!-- FEATURED -->
-    <div class="container py-5">
-      <div>
-        <span class="badge bg-info mb-2">EVENTS</span>
-        <h1>Featured</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 mb-3 mb-sm-0">
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4 bg-info-subtle">
-                <img src="..." class="img-fluid rounded-start" alt="" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Adopt a Seabass</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-info">Tuesday, March 27, 2023</small>
-                  </p>
-                  <button type="button" class="btn btn-outline-dark">
-                    More Info
-                  </button>
+    <section class="bg-light-subtle">
+      <div class="container py-5">
+        <div>
+          <span class="badge bg-info mb-2">EVENTS</span>
+          <h1>Featured</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <div class="card h-100">
+              <div class="row g-0 h-100">
+                <div
+                  class="col-md-4 bg-info-subtle featureImg"
+                  style="
+                    background-image: url('https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+                  "
+                ></div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Adopt a Seabass</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-info">Tuesday, March 27, 2023</small>
+                    </p>
+                    <button type="button" class="btn btn-outline-dark">
+                      More Info
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4 bg-info-subtle">
-                <img src="..." class="img-fluid rounded-start" alt="" />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Adopt a Seabass</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-info">Saturday, February 25, 2023</small>
-                  </p>
-                  <button type="button" class="btn btn-outline-dark">
-                    More Info
-                  </button>
+          <div class="col-sm-6">
+            <div class="card h-100">
+              <div class="row g-0 h-100">
+                <div
+                  class="col-md-4 bg-info-subtle featureImg"
+                  style="
+                    background-image: url('https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8');
+                  "
+                ></div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Salt Marsh Open House</h5>
+                    <p class="card-text">
+                      Explore the Salinas de San Pedro wetlands habitat with CMA
+                      Educators at Cabrillo Beach. Use binoculars, microscopes,
+                      and experience the marvels of live animal observation,
+                      bird watching, native plant discovery, and tidal changes.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-info"
+                        >Saturday, February 25, 2023</small
+                      >
+                    </p>
+                    <button type="button" class="btn btn-outline-dark">
+                      More Info
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- PROGRAM -->
-    <section class="bg-info-subtle">
-      <div class="container py-5 bg-info-subtle">
-        <div class="row p-2">
-          <img
-            src="https://images.unsplash.com/photo-1679537240106-40cee79acfe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
-            class="img-fluid col-md-6"
-            alt=""
-          />
-          <div class="col-md-6 mt-2">
-            <span class="badge bg-info mb-2">PROGRAM</span>
-            <h1>Sea Search</h1>
-            <p>
-              As we look toward our 100th anniversary in 2030, Shedd Aquarium is
-              embarking on an audacious, energizing and urgent undertaking —a
-              transformational Centennial Commitment that accelerates access and
-              connection to nature for all and amplifies ways to care, conserve
-              and act to ensure an equitable, sustainable, and thriving future
-              for people and aquatic life.
-            </p>
-            <button type="button" class="btn btn-outline-dark">
-              More Info
-            </button>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- PROGRAM -->
+    <div class="container py-5">
+      <div class="row p-2">
+        <img
+          src="https://images.unsplash.com/photo-1679537240106-40cee79acfe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+          class="img-fluid col-md-6"
+          alt=""
+        />
+        <div class="col-md-6 mt-2">
+          <span class="badge bg-info mb-2">PROGRAM</span>
+          <h1>Sea Search</h1>
+          <p>
+            As we look toward our 100th anniversary in 2030, Shedd Aquarium is
+            embarking on an audacious, energizing and urgent undertaking —a
+            transformational Centennial Commitment that accelerates access and
+            connection to nature for all and amplifies ways to care, conserve
+            and act to ensure an equitable, sustainable, and thriving future for
+            people and aquatic life.
+          </p>
+          <button type="button" class="btn btn-outline-dark">More Info</button>
+        </div>
+      </div>
+    </div>
+
     <!-- SUPPORT US -->
-    <div class="container-fluid py-5 support text-white">
+    <div
+      class="container-fluid py-5 support text-white"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1637308106043-f4d78ad9e0e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+      "
+    >
       <div
         class="col-lg-8 mx-auto align-items-center justify-content-center text-center"
       >
