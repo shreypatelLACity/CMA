@@ -1,39 +1,63 @@
 * {
-    font-family: "Poppins", sans-serif;
-  }
+  font-family: "Poppins", sans-serif;
+}
 
-
-
-.bg-CMA{
+.bg-CMA {
   background-color: #181823;
 }
 
-.tile{
+.tile {
   height: 250px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.tileOne{
+.tileOne {
   background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
 }
 
-.tileTwo{
+.tileTwo {
   background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
 }
 
-.tileThree{
+.tileThree {
   background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
 }
 
-.tileFour{
+.tileFour {
   background-image: url(/assests/img/sladjana-karvounis-f4pp60bGb7Y-unsplash.jpg);
 }
 
-.support{
+.support {
   background-image: url(/assests/img/Support.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video-content {
+  position: relative;
+  z-index: 1;
+
+  color: white;
+}
+
+video[poster] {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
